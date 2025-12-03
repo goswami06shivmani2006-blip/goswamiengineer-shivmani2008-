@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Student Registration Form</h1></center><hr>
+    <form action="/submit" method="post" >
+    Full name:<input type="text" placeholder="Enter your full name" required><br><br>
+    Email:<input type="text" placeholder="Enter vaid email address" required><br><br>
+    Password:<input type="password" placeholder="Enter password" required><br><br>
+    Gender: <label for="male">Male</label>
+    <input type="radio" id="male"  name="gender"value="male">
+    <label for="female">female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="others">Others</label>
+    <input type="radio" id="others" name="gender" value="others"><br><br>
+    <label >Course:</label>
+    <select required>
+        <option value="">Select Course</option>
+    <option>B.TECH</option>
+    <option>BBA</option>
+    <OPTION>MBA</OPTION>
+    </select><br><br>
+    Contact NO:<input type="text" placeholder="Enter phone number" required><br><br>
+    Address:<br><textarea name="address" id="address" cols="40" rows="5" >Enter your Address
+    </textarea><br><br>
+  <input type="submit" value="Register">
+  <input type="submit" value="Clear">
+</form>
+<hr>
+<footer><center>&copy; 2025 Student Registration Portal</center></footer> 
+</body>
+</html>
